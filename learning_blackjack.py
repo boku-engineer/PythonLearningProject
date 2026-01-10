@@ -68,9 +68,10 @@ def play_game():
     else:
         print("You lose!")
 
-while True:
-    if input("\nDo you want to play a game? [y/n]: ").lower() == 'y':
-        play_game()
-    else:
-        print("Thanks for playing!")
-        break
+if __name__ == "__main__":
+    while True:
+        if input("\nDo you want to play a game? [y/n]: ").lower() == 'y':
+            play_game()
+        else:
+            print("Thanks for playing!")
+            break
