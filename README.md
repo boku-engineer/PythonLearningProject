@@ -6,11 +6,14 @@ A collection of Python programs for learning and practicing programming concepts
 
 | File | Description |
 |------|-------------|
+| `main.py` | PyCharm default template script |
+| `learning.py` | Python basics experimentation (modulo operations) |
 | `learning_random.py` | Rock-Paper-Scissors game using the random module |
 | `learning_password_generator.py` | Random password generator with customizable length |
 | `learning_love_calculator.py` | Novelty compatibility score calculator |
 | `learning_number_guessing.py` | Number guessing game with difficulty levels |
 | `learning_blackjack.py` | Simplified Blackjack card game vs computer |
+| `learning_blackjack_backup.py` | Backup version of the Blackjack game |
 | `learning_scraping_website.py` | Web scraper using Playwright for PDF export |
 
 ## Project Structure
@@ -23,11 +26,14 @@ PythonLearningProject/
 ├── tests/
 │   ├── __init__.py
 │   └── test_blackjack.py      # Unit tests for blackjack
+├── main.py
+├── learning.py
 ├── learning_blackjack.py
-├── learning_random.py
-├── learning_password_generator.py
+├── learning_blackjack_backup.py
 ├── learning_love_calculator.py
 ├── learning_number_guessing.py
+├── learning_password_generator.py
+├── learning_random.py
 ├── learning_scraping_website.py
 └── README.md
 ```
