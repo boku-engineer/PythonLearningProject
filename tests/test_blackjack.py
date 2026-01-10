@@ -71,3 +71,8 @@ class TestIsBlackjack:
         """Non-21 hand is not blackjack"""
         hand = [10, 5]
         assert is_blackjack(hand) is False
+
+    def test_is_blackjack_false_for_single_card(self):
+        """Single card is not blackjack"""
+        hand = [11]
+        assert is_blackjack(hand) is False
